@@ -7,6 +7,7 @@ namespace BookWebApplication.Models
 {
     public class Category
     {
+        [Display(Name = "Category Id")]
         [Key]
         public int Id { get; set; }
 
@@ -14,7 +15,5 @@ namespace BookWebApplication.Models
         [Required]
         [MaxLength(50)]
         public string Name { get; set; }
-        
-
     }
 }
