@@ -7,6 +7,7 @@ namespace BookWebApplication.Models
 {
     public class Category
     {
+        [Display(Name = "Category Id")]
         [Key]
         public int Id { get; set; }
 
